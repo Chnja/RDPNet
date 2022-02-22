@@ -7,12 +7,16 @@
 ![RDP-Net](img/RDPNet.png)
 
 The pytorch implementation for RDP-Net.
-<!-- The paper is avaliable on arXiV. -->
 
 ```python
 from RDPNet import RDPNet
 net = RDPNet(in_ch=3, out_ch=2).to(device)
 ```
+
+## Paper
+
+This work has been submitted to the IEEE Transactions on Geoscience and Remote Sensing.
+The paper is now avaliable on arXiv [Link](https://arxiv.org/abs/2202.09745).
 
 ## Introduction
 
