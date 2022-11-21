@@ -13,6 +13,13 @@ from RDPNet import RDPNet
 net = RDPNet(in_ch=3, out_ch=2).to(device)
 ```
 
+The pytorch implementation for Edge Loss.
+
+```python
+from edgeloss import combine_loss
+loss = combine_loss(prediction, target)
+```
+
 ## Paper
 
 This work has been submitted to the IEEE Transactions on Geoscience and Remote Sensing.
