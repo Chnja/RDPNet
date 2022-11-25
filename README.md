@@ -20,9 +20,15 @@ from edgeloss import combine_loss
 loss = combine_loss(prediction, target)
 ```
 
+Well-trained model.
+
+```python
+net.load_state_dict(torch.load("RDPNet_CDD.pth"))
+```
+
 ## Paper
 
-This work has been submitted to the IEEE Transactions on Geoscience and Remote Sensing.
+This work has been accepted for publication in the [IEEE Transactions on Geoscience and Remote Sensing (TGRS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36).
 The paper is now avaliable on arXiv [Link](https://arxiv.org/abs/2202.09745).
 
 ```bibtex
