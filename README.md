@@ -23,6 +23,7 @@ loss = combine_loss(prediction, target)
 Well-trained model.
 
 ```python
+# For CDD dataset
 net.load_state_dict(torch.load("RDPNet_CDD.pth"))
 ```
 
