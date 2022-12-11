@@ -1,8 +1,12 @@
 # RDP-Net: Region Detail Preserving Network for Change Detection
 
 ![author](https://img.shields.io/badge/Author-Chnja-blue.svg)
-![author](https://img.shields.io/badge/Frame-pytorch-important.svg)
-![license](https://img.shields.io/badge/License-GPLv3-green.svg)
+![Frame](https://img.shields.io/badge/Frame-pytorch-important.svg)
+![license](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)
+![Paper](https://img.shields.io/badge/Paper-TGRS-blueviolet.svg)
+![](https://img.shields.io/github/stars/chnja/rdpnet?color=green&style=social)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rdp-net-region-detail-preserving-network-for/change-detection-for-remote-sensing-images-on)](https://paperswithcode.com/sota/change-detection-for-remote-sensing-images-on?p=rdp-net-region-detail-preserving-network-for)
 
 ![RDP-Net](img/RDPNet.png)
 
@@ -30,6 +34,7 @@ net.load_state_dict(torch.load("RDPNet_CDD.pth"))
 ## Paper
 
 This work has been accepted for publication in the [IEEE Transactions on Geoscience and Remote Sensing (TGRS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36).
+
 The paper is now avaliable on [TGRS Early Access](https://ieeexplore.ieee.org/document/9970750) and arXiv [Link](https://arxiv.org/abs/2202.09745).
 
 ```bibtex
