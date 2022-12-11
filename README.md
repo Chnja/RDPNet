@@ -30,15 +30,18 @@ net.load_state_dict(torch.load("RDPNet_CDD.pth"))
 ## Paper
 
 This work has been accepted for publication in the [IEEE Transactions on Geoscience and Remote Sensing (TGRS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36).
-The paper is now avaliable on arXiv [Link](https://arxiv.org/abs/2202.09745).
+The paper is now avaliable on [TGRS Early Access](https://ieeexplore.ieee.org/document/9970750) and arXiv [Link](https://arxiv.org/abs/2202.09745).
 
 ```bibtex
 @article{chen2022rdpnet,
+    author={Chen, Hongjia and Pu, Fangling and Yang, Rui and Tang, Rui and Xu, Xin},
+    journal={IEEE Transactions on Geoscience and Remote Sensing}, 
     title={RDP-Net: Region Detail Preserving Network for Change Detection}, 
-    author={Hongjia Chen and Fangling Pu and Rui Yang and Rui Tang and Xin Xu},
     year={2022},
-    eprint={2202.09745},
-    archivePrefix={arXiv},
+    volume={},
+    number={},
+    pages={1-1},
+    doi={10.1109/TGRS.2022.3227098},
 }
 ```
 

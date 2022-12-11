@@ -63,6 +63,8 @@ def combine_loss(prediction, target):
 
     el = EL.edgeLoss(prediction, target)
 
+    # loss += Focal Loss
+    # loss += Dice Loss
     loss += el
 
     return loss

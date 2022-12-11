@@ -107,4 +107,4 @@ class RDPNet(nn.Module):
         out = out * self.weight
         out = self.final(out)
 
-        return (out,)
+        return out
