@@ -43,9 +43,9 @@ The paper is now avaliable on [TGRS](https://ieeexplore.ieee.org/document/997075
     journal={IEEE Transactions on Geoscience and Remote Sensing}, 
     title={RDP-Net: Region Detail Preserving Network for Change Detection}, 
     year={2022},
-    volume={},
+    volume={60},
     number={},
-    pages={1-1},
+    pages={1-10},
     doi={10.1109/TGRS.2022.3227098},
 }
 ```
