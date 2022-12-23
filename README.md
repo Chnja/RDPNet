@@ -33,9 +33,9 @@ net.load_state_dict(torch.load("RDPNet_CDD.pth"))
 
 ## Paper
 
-This work has been accepted for publication in the [IEEE Transactions on Geoscience and Remote Sensing (TGRS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36).
+This work has been published on [IEEE Transactions on Geoscience and Remote Sensing (TGRS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36).
 
-The paper is now avaliable on [TGRS Early Access](https://ieeexplore.ieee.org/document/9970750) and arXiv [Link](https://arxiv.org/abs/2202.09745).
+The paper is now avaliable on [TGRS](https://ieeexplore.ieee.org/document/9970750) and arXiv [Link](https://arxiv.org/abs/2202.09745).
 
 ```bibtex
 @article{chen2022rdpnet,
