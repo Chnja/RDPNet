@@ -10,7 +10,7 @@ class EdgeLoss:
 
     def cal_mask(self):
         num = 0
-        ksize = self.MASK
+        ksize = self.KSIZE
         MASK = self.MASK
         for x in range(0, ksize):
             for y in range(0, ksize):
