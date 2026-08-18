@@ -1,3 +1,5 @@
+
+
 # RDP-Net: Region Detail Preserving Network for Change Detection
 
 ![author](https://img.shields.io/badge/Author-Chnja-blue.svg)
@@ -15,6 +17,7 @@ The pytorch implementation for RDP-Net.
 ```python
 from RDPNet import RDPNet
 net = RDPNet(in_ch=3, out_ch=2).to(device)
+out = net(a, b)
 ```
 
 The pytorch implementation for Edge Loss.
